@@ -1,0 +1,233 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,500,700,700italic,900,900italic);
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+}
+section.p-header {
+    height: 400px;
+    background: url(../img/headerbg.png)center center /cover;
+    position:relative;
+}
+section.p-header img{
+    float:right;
+    margin-top:203px;;
+}
+section.p-header .title-planes-destacados {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background: #DA262C;
+    padding:10px 20px 10px 20px;
+    color:white;
+}
+section.p-header .title-planes-destacados h2 {
+    font-weight: 300;
+    margin: 0px;
+}
+.col-sm-5 {
+    padding:0px !important;
+}
+.col-sm-7 {
+    padding:0px !important;
+}
+
+section.planes .title-telefonia {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background: #DA262C;
+    padding:10px 20px 10px 20px;
+    color:white;
+}
+section.planes .title-telefonia h2 {
+    font-weight: 300;
+    margin: 0px;
+}
+section.telefonia .item-l {
+    background: #e2d7d7;
+    background: -moz-linear-gradient(left, #e2d7d7 0%, #ffffff 98%);
+    background: -webkit-linear-gradient(left, #e2d7d7 0%,#ffffff 98%);
+    background: linear-gradient(to right, #e2d7d7 0%,#ffffff 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2d7d7', endColorstr='#ffffff',GradientType=1 );
+    padding:0px;
+    height:150px;
+}
+section.telefonia .item-r {
+    background: #e2d7d7;
+    background: -moz-linear-gradient(right, #e2d7d7 0%, #ffffff 98%);
+    background: -webkit-linear-gradient(right, #e2d7d7 0%,#ffffff 98%);
+    background: linear-gradient(to left, #e2d7d7 0%,#ffffff 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2d7d7', endColorstr='#ffffff',GradientType=1 );
+    padding: 0px;
+    height: 150px;
+}
+section.telefonia .item-icon {
+    background: url(../img/icon-2.png);
+    height:100%;
+    width:100%;
+}
+section.telefonia h1 {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+section.telefonia h2 {
+    font-size: 1.9rem;
+    font-weight: 300;
+    word-break: normal;
+}
+section.telefonia a {
+    text-decoration: none;
+    color:#1F97AE;
+    font-weight: 600;
+}
+section.promos .container-f {
+    padding-left: 90px;
+    margin-top:50px;
+}
+section.promos .container-f h1 {
+    color:white;
+    line-height: 4rem;
+    font-weight: 300;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+section.promos .container-f p {
+    color:white;
+    font-weight: 200;
+    font-size: 2.2rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+section.promos .container-f button {
+    float:right;
+    color:#DA262C;
+    background: white;
+    border-radius: 15px;
+    font-weight: 200;
+    padding:10px 15px 10px 15px;
+    font-size: 1.8rem;
+    font-weight:600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor:pointer;
+    transition: all ease 0.3s;
+}
+section.promos .container-f button:hover {
+    transform:translate(-5px,-5px);
+    -webkit-box-shadow: 0px 2px 24px -5px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 2px 24px -5px rgba(0,0,0,0.57);
+    box-shadow: 0px 2px 24px -5px rgba(0,0,0,0.57);
+}
+.promo-sec-2 {
+    background:#DA262C;
+    position:relative;
+    height: 400px;
+}
+.promo-sec-1 {
+    background: #e8eded;
+    position:relative;
+    height:400px;
+}
+.promo-sec-2 .ico1 {
+    position:absolute;left:-70px;width:140px;
+}
+.promo-sec-2 .ico2 {
+    position:absolute;left:-70px;width:140px;
+}
+.tel-sep {
+    padding-bottom: 100px;
+    padding-top:100px;
+}
+.planes-button {
+    float:right; 
+    margin-right:100px;
+}
+.flexslider:hover .flex-direction-nav .flex-next {
+    right: -11px !important;
+}
+.flexslider:hover .flex-direction-nav .flex-prev {
+    left: -11px !important;
+}
+.flexslider:hover .flex-direction-nav .flex-next:hover {
+    right: -11px !important;
+}
+.flexslider:hover .flex-direction-nav .flex-prev:hover {
+    left: -11px !important;
+}
+@media (max-width: 768px) {
+    .tel-sep {
+        padding-bottom: 30px;
+        padding-top:30px;
+    }
+    .flexslider:hover .flex-direction-nav .flex-next {
+        right: -11px !important;
+    }
+    .flexslider:hover .flex-direction-nav .flex-prev {
+        left: -11px !important;
+    }
+    .promo-sec-2 {
+        background:#DA262C;
+        position:relative;
+        height: 100% !important;
+    }
+    .promo-sec-1 {
+        background: #e8eded;
+        position:relative;
+        height:200px;
+    }
+    section.telefonia h2 {
+        font-size: 1.3rem;
+        font-weight: 300;
+        word-break: normal;
+    }
+    section.telefonia h1 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    section.promos .container-f {
+        padding-left: 130px;
+        margin-top: 30px;
+    }
+    .promo-sec-2 .ico1 {
+        position:absolute;
+        left:15px;
+        top:20px;
+        width:110px;
+    }
+    .promo-sec-2 .ico2 {
+        position:absolute;
+        left:15px;
+        top: 265px;
+        width:110px;
+    }
+    section.promos .container-f h1 {
+        font-size: 2.6rem;
+        line-height:2.6rem;
+        padding-top: 20px;
+    }
+    section.promos .container-f p {
+        font-size: 2rem;
+    }
+    section.promos .container-f button {
+        font-size: 1.3rem;
+        margin-bottom: 16px;
+        margin-top:21px;
+    }
+    section.promos .sec2 {
+        margin-top:104px;
+    }
+    section.p-header img {
+        float: right;
+        max-width:85% !important;
+        margin-top: 244px;
+    }
+    .planes-button {
+        float:right; 
+        margin-right:20px;
+        margin-bottom:130px;
+    }
+}

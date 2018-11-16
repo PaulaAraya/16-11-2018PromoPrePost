@@ -1,0 +1,1737 @@
+body {
+    margin: 0;
+    line-height: 1;
+    font-family: "Roboto", helvetica, sans-serif;
+}
+
+.destacado {
+    font-weight: 100;
+    line-height: 24px;
+    background: #a00000;
+    position: absolute;
+    bottom: -7px;
+    width: 100%;
+    left: 0
+}
+
+.container-L {
+
+    max-width: 960px;
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-full {
+
+    max-width: 1920px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2%;
+}
+
+.btn-Landing {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: auto;
+    margin: 10px 0px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: table;
+    border-radius: 3px;
+    padding: 15px 40px;
+    line-height: 1;
+    cursor: pointer;
+    background: #1F97AE;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.link-Landing {
+    color: inherit;
+    text-decoration: none;
+    color: #1F97AE;
+    font-size: inherit;
+    position: relative;
+    font-weight: 500;
+}
+
+
+.btn-Landing:after {
+
+    content: "";
+    font-family: "FontAwesome";
+    margin-left: 5px;
+}
+
+.link-Landing:hover {
+    color: #1F97AE;
+    text-decoration: underline;
+}
+
+
+.link-Landing:after {
+    color: inherit;
+    text-decoration: none;
+    content: "\f105";
+    font-family: "FontAwesome";
+    position: absolute;
+    margin-left: 5px;
+}
+
+.btn-Landing:focus,
+.btn-Landing:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* planes */
+
+.planes-Landing {
+    position: relative;
+}
+
+.content-Planes article {
+    width: 100%;
+    max-width: 285px;
+    display: block;
+    float: left;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    margin: 20px 2% 40px 2%;
+    min-height: 520px;
+    margin-left: 11px;
+}
+
+.big-plan {
+    position: absolute;
+    right: 70px;
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    float: right;
+    z-index: 999;
+}
+
+.big-plan .plan-destacado-Landing {
+    width: 100%;
+    background-color: #fff;
+    max-width: 350px;
+    display: block;
+    float: left;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    margin: 20px 2% 40px 2%;
+    min-height: 465px;
+    margin-left: 11px;
+}
+
+
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+    width: 50%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #e40615;
+    cursor: default;
+    background-color: #fff;
+    border: none;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+    margin-right: 0;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 0;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+
+.nav-tabs a {
+    color: #6d6d6d;
+    text-decoration: none;
+}
+
+.tab-pane h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.tab-pane h1 strong {
+    color: #e40615;
+}
+
+.Element-Precio {
+    background-color: #e50515;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    left: -10px;
+    right: 0;
+    box-sizing: content-box;
+}
+
+.Element-Precio h3 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.Element-Precio span {
+    font-size: 3.8rem;
+    font-weight: 600;
+    padding: 0;
+    line-height: 1;
+}
+
+.Element-Precio:after {
+    content: "";
+    width: 10px;
+    height: 15px;
+    background-image: url(../img/icon-label-left.svg);
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    top: -82px;
+    left: -10px;
+}
+
+.Element-Precio:before {
+    content: "";
+    width: 10px;
+    height: 20px;
+    background-image: url(../img/icon-label-right.svg);
+    background-repeat: no-repeat;
+    display: block;
+    top: -12px;
+    position: absolute;
+    right: 0px;
+}
+
+
+.tab-pane h3 {
+    text-align: center;
+    margin: 0px 2% 5px;
+    font-size: 2rem;
+}
+
+
+.redes-sociales-P:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.redes-sociales-P {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.redes-sociales-P li {
+    width: 40px;
+    min-height: 40px;
+    display: inline-block;
+    padding: 0;
+}
+
+.tab-pane h2 {
+    text-align: center;
+    margin: 0px 2% 5px;
+    font-size: 2.5rem;
+    color: #E70515;
+    font-weight: 500;
+}
+
+.tab-pane p {
+
+    text-align: center;
+    margin: 0px 2% 5px;
+    font-size: 1.8rem;
+    color: #222;
+    font-weight: 500;
+}
+
+
+.tab-pane .btn-Landing {
+
+    margin: 10px auto;
+}
+
+.planes-Landing h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.title-planes p {
+    font-size: 1.8em;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.title-plan {
+    color: #222;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 50%;
+    height: 90px;
+    padding: 5px;
+}
+
+.title-plan h5 {
+    margin-bottom: 5px;
+    min-height: 45px;
+}
+
+.title-forma {
+    display: block;
+}
+
+.title-plan p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #e60415;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.line-plan-2 {
+    border-left: 1px solid #e60415;
+}
+
+.line-plan-4 {
+    border-left: 1px solid #e60415;
+}
+
+.precios-planes {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0 1%;
+    border-bottom: 1px solid #e60415;
+    padding-bottom: 10px;
+}
+
+.precios-planes:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.caractaristicas-plan .caract {
+    color: #222;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 50%;
+    min-height: 87px;
+    padding: 5px;
+}
+
+.caractaristicas-plan .caract2 {
+    color: #222;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 50%;
+    min-height: 100px;
+    padding: 5px;
+}
+
+.caractaristicas-plan .caract img {
+    width: 100%;
+    max-width: 30px;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+}
+
+.caractaristicas-plan .caract2 img {
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.caractaristicas-plan .caract h2 {
+    font-size: 1.2em;
+    color: #222;
+    text-align: left;
+    font-weight: 400;
+}
+
+.caractaristicas-plan .caract2 h2 {
+    font-size: 1.1em;
+    color: #222;
+    text-align: center;
+    font-weight: 400;
+}
+
+.caractaristicas-plan .caract2 p {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.plan-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.caractaristicas-plan:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.big-plan-mobile .plan-D-Landing-mobile {
+
+    width: 100%;
+    background-color: #fff;
+    max-width: 350px;
+    display: none;
+    float: left;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    margin: 20px 2% 40px 2%;
+    min-height: 460px;
+    margin-left: 11px;
+}
+
+.big-plan-mobile {
+    padding: 60px 2% 40px;
+    overflow: hidden;
+    top: 20px;
+    position: relative;
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .big-plan .plan-destacado-Landing {
+        display: none;
+    }
+
+    .big-plan-mobile .plan-D-Landing-mobile {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .title-planes {
+        display: none;
+    }
+
+    .plan-D-Landing-mobile .destacado-label-plan {
+        display: block;
+        width: 95%;
+        height: 45px;
+        position: absolute;
+        background-color: #F58220;
+        top: 15px;
+        z-index: -9;
+        left: 13px;
+        border-radius: 42px 42px 0px 0;
+        right: 0;
+        color: #fff;
+        padding: 16px 4%;
+        line-height: 1.1;
+    }
+
+    .destacado-label-plan span {
+        font-size: 1.1em;
+        font-weight: 700;
+        padding: 10px 4%;
+    }
+
+    .big-plan-mobile {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .plan-D-Landing-mobile .destacado-label-plan {
+    
+    min-height: 45px;
+    
+    top: -2px;
+    z-index: -9;
+    left: 10px;
+    
+}
+    .content-Planes article {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .plan-D-Landing-mobile .destacado-label-plan {
+    display: block;
+    width: 95%;
+    min-height: 67px;
+    position: absolute;
+    background-color: #F58220;
+    top: 5px;
+    z-index: -9;
+    left: 10px;
+    border-radius: 42px 42px 0px 0;
+    right: 0;
+    color: #fff;
+    padding: 8px 4%;
+    line-height: 1.1;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .content-Planes article {
+        width: 100%;
+        max-width: 270px;
+    }
+}
+
+
+
+
+
+
+
+
+/*fin planes */
+
+
+/*equipo destacado*/
+
+.equipo-Left {
+    width: 40%;
+    display: block;
+    float: left;
+    padding: 20px 2%;
+}
+
+.equipo-Right {
+    display: block;
+    float: left;
+    width: 60%;
+    padding: 20px 2%;
+}
+
+.equipo-date {
+    width: 56%;
+    display: inline-block;
+    min-height: 200px;
+    margin-right: 2%;
+}
+
+.equipo-date img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.equipo-cost {
+    width: 100%;
+    max-width: 140px;
+    display: inline-block;
+    overflow: hidden;
+    min-height: 170px;
+    padding: 0px 1%;
+    background-color: #e60415;
+    border-radius: 22px;
+    color: #fff;
+	vertical-align: top;
+}
+
+.equipo-Right h3 {
+    margin: 0;
+}
+
+.equipo-date h3 {
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.costo-equipos {
+    font-size: .4em;
+    position: relative;
+    left: 20px;
+}
+
+.equipo-cost h4 {
+    font-size: 6.3em;
+    margin: 0;
+}
+
+
+.equipo-cost h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+    padding: 30px 0 0;
+}
+
+.equipo-date span {
+    margin: 20px 0;
+    display: block;
+    font-size: 1.45em;
+    font-weight: 600;
+}
+
+.destacado-right-equipo {
+    color: #e70516;
+}
+
+@media screen and (max-width: 850px) {
+
+    .equipo-Left img {
+        max-width: 300px;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .equipo-Left {
+        width: 100%;
+    }
+
+    .equipo-Right h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .equipo-Right {
+        width: 100%;
+        float: none;
+        clear: both;
+        padding-top: 0;
+    }
+
+    .equipo-date {
+        width: 100%;
+        display: block;
+        min-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .equipo-date h3 {
+
+        text-align: center;
+    }
+
+    .equipo-date img {
+
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding: 0px 2%;
+        max-width: 200px;
+    }
+
+    .equipo-date span {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .equipo-cost {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .equipo-Right .btn-Landing {
+
+        margin: 20px auto;
+    }
+}
+
+
+
+
+
+
+
+/*fin equipo destacado*/
+
+
+/*ACORDEON*/
+
+.Rmedios {
+    background-color: #f2f2f2;
+    padding: 40px 2% 40px 2%;
+    box-sizing: border-box;
+}
+
+.accordion.active {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.accordion {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.accordion.active:after {
+    content: "";
+    font-family: "FontAwesome";
+}
+
+.accordion:after {
+    content: "";
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 10px;
+    color: #1F97AE;
+}
+
+
+.comerciales-link {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #666;
+    padding: 10px 0px;
+}
+
+.comerciales-parrafo {
+    font-weight: 400;
+    color: #8e8e8e;
+    font-size: .9em;
+    line-height: 1.6rem;
+}
+
+
+.panel a {
+    color: #1F97AE !important;
+    font-weight: 300;
+}
+
+.panel {
+    display: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px 10px;
+    border-left: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.legales-Landing {
+    padding: 0 2% 40px;
+}
+
+
+.panel a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FIN ACORDEON*/
+
+
+/*nuevo banner*/
+
+.header-banner-top .primary-wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.header-banner-top .hidden {
+    display: none;
+}
+
+.header-banner-top .horizontal-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-banner-top .horizontal-nav li {
+    display: inline-block;
+}
+
+.header-banner-top .horizontal-nav a {
+    display: block;
+}
+
+.header-banner-top .horizontal-nav .folder {
+    position: relative;
+    cursor: pointer;
+}
+
+.header-banner-top .horizontal-nav .folder ul {
+    display: block;
+    position: absolute;
+    top: -9999px;
+    left: 0;
+    z-index: 999;
+}
+
+.header-banner-top .horizontal-nav .folder li {
+    display: block;
+}
+
+.header-banner-top .horizontal-nav .folder:hover ul {
+    top: 100%;
+}
+
+.header-banner-top .mobile-menu-box,
+.header-banner-top .mobile-menu-label {
+    display: none;
+}
+
+.header-banner-top .banner {
+    position: relative;
+}
+
+.header-banner-top .banner .banner-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.header-banner-top .banner .primary-wrapper {
+    position: relative;
+}
+
+@media screen and (max-width: 700px) {
+    .plan-D-Landing-mobile .destacado-label-plan {
+        top: -5px;
+        height: auto
+    }
+    .header-banner-top .horizontal-nav {
+        overflow: hidden;
+        height: 0;
+    }
+    .header-banner-top .mobile-menu-box {
+        display: none;
+    }
+    .header-banner-top .mobile-menu-label {
+        display: block;
+        cursor: pointer;
+    }
+    .header-banner-top .mobile-menu-label:before {
+        content: 'Menu';
+    }
+    .header-banner-top .mobile-menu-box:checked~.horizontal-nav {
+        height: auto;
+    }
+    .header-banner-top .mobile-menu-box:checked~.mobile-menu-label:before {
+        content: 'Close';
+    }
+    .header-banner-top .horizontal-nav li {
+        display: block;
+    }
+    .header-banner-top .horizontal-nav .folder ul {
+        position: static;
+    }
+    .header-banner-top .horizontal-nav .folder-toggle-label a:before {
+        content: '+ ';
+    }
+    .header-banner-top .horizontal-nav .folder-toggle-box:checked~.folder-toggle-label a:before {
+        content: '- ';
+    }
+    .header-banner-top .horizontal-nav .folder:hover ul,
+    .header-banner-top .horizontal-nav .folder-toggle-box~ul {
+        display: none;
+    }
+    .header-banner-top .horizontal-nav .folder-toggle-box:checked~ul {
+        display: block;
+    }
+}
+
+.header-banner-top {
+    text-align: center;
+    min-height: 390px;
+}
+
+.header-banner-top .main-navigation {
+    background: #222;
+}
+
+.header-banner-top .horizontal-nav a {
+    padding: 1.5em 1em;
+    color: #aaa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.header-banner-top .horizontal-nav a:hover,
+.header-banner-top .horizontal-nav .active-link a {
+    color: #fff;
+}
+
+.header-banner-top .horizontal-nav .folder ul {
+    background-color: #222;
+    transition: padding 0.14s ease-out;
+    text-align: left;
+}
+
+.header-banner-top .horizontal-nav .folder a {
+    padding: 0.5em 1em;
+    white-space: nowrap;
+}
+
+.header-banner-top .horizontal-nav .folder:hover ul {
+    padding: 0.5em 0;
+}
+
+.header-banner-top .banner {
+    background-color: #222;
+}
+
+
+
+/*banner desktop*/
+
+.header-banner-top .banner .banner-image {
+    background: url(https://digital.clarochile.cl/wcm-iframe/landing-postpago-dinamico/assets/img/banner-junio.png);
+    background-size: cover;
+    background-position: 0px -20px;
+    opacity: 1;
+}
+
+
+
+/*fin imagen de banner desktop*/
+
+.header-banner-top .banner .primary-wrapper {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.header-banner-top .banner .site-title {
+    letter-spacing: 2px;
+    font-size: 52px;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.header-banner-top .banner .site-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-banner-top .banner .site-tagline {
+    color: #aaa;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 2%;
+    text-align: left;
+}
+
+.site-tagline img {
+    max-width: 350px;
+    width: 100%;
+}
+
+.site-tagline h1 {
+    color: #222;
+    font-weight: 400;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 5px 1%;
+}
+
+.site-tagline strong {
+    color: #e40615;
+}
+
+.site-tagline p {
+    font-size: 1.8em;
+    color: #222;
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 5px 1%;
+}
+
+@media screen and (max-width: 700px) {
+    .header-banner-top .horizontal-nav a {
+        padding: 0.75em 1em;
+    }
+    .header-banner-top .horizontal-nav>ul>li:first-child a {
+        padding-top: 2em;
+    }
+    .header-banner-top .horizontal-nav>ul>li:last-child a {
+        padding-bottom: 2em;
+    }
+    .header-banner-top .horizontal-nav li {
+        display: block;
+    }
+    .header-banner-top .horizontal-nav .folder ul {
+        text-align: center;
+        padding: 0.5em 0;
+        margin: 0.5em 0;
+        transition: none;
+        background-color: #292929;
+    }
+    .header-banner-top .horizontal-nav .folder:hover ul {
+        padding: 0.5em 0;
+    }
+    .header-banner-top .horizontal-nav .folder-toggle-label a {
+        cursor: pointer;
+    }
+    .header-banner-top .mobile-menu-label {
+        color: #fff;
+        background-color: #292929;
+        padding: 1.5em 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .header-banner-top .mobile-menu-box:checked~.mobile-menu-label {
+        color: #aaa;
+    }
+    .header-banner-top .mobile-menu-box:checked~.horizontal-nav {
+        padding: 1em 0;
+    }
+    .header-banner-top .mobile-menu-box:checked~.mobile-menu-label:before {
+        content: 'Close';
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .plan-D-Landing-mobile .destacado-label-plan {
+        top: 0
+    }
+
+    /*imagen de banner mobile*/
+    .header-banner-top .banner .banner-image {
+        background: url(https://digital.clarochile.cl/wcm-iframe/landing-postpago-dinamico/assets/img/banner-junio_mobile.png);
+        background-size: cover;
+    }
+    /*fin imagen de banner mobile*/
+    .site-tagline strong {
+
+        display: block;
+    }
+
+
+    .header-banner-top .banner .primary-wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+
+
+
+/*fin nuevo banner*/
+
+
+/*nueva seccion de banner-destacado*/
+
+
+/*nuevo banner*/
+
+.header-banner-destacado .primary-wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.header-banner-destacado .hidden {
+    display: none;
+}
+
+.header-banner-destacado .horizontal-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-banner-destacado .horizontal-nav li {
+    display: inline-block;
+}
+
+.header-banner-destacado .horizontal-nav a {
+    display: block;
+}
+
+.header-banner-destacado .horizontal-nav .folder {
+    position: relative;
+    cursor: pointer;
+}
+
+.header-banner-destacado .horizontal-nav .folder ul {
+    display: block;
+    position: absolute;
+    top: -9999px;
+    left: 0;
+    z-index: 999;
+}
+
+.header-banner-destacado .horizontal-nav .folder li {
+    display: block;
+}
+
+.header-banner-destacado .horizontal-nav .folder:hover ul {
+    top: 100%;
+}
+
+.header-banner-destacado .mobile-menu-box,
+.header-banner-destacado .mobile-menu-label {
+    display: none;
+}
+
+.header-banner-destacado .banner {
+    position: relative;
+}
+
+.header-banner-destacado .banner .banner-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.header-banner-destacado .banner .primary-wrapper {
+    position: relative;
+}
+
+.header-banner-destacado .site-tagline .btn-Landing {
+    display: inline-block;
+}
+
+.header-banner-destacado .claro-destacado {
+    position: absolute;
+    left: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .header-banner-destacado .horizontal-nav {
+        overflow: hidden;
+        height: 0;
+    }
+    .header-banner-destacado .mobile-menu-box {
+        display: none;
+    }
+    .header-banner-destacado .mobile-menu-label {
+        display: block;
+        cursor: pointer;
+    }
+    .header-banner-destacado .mobile-menu-label:before {
+        content: 'Menu';
+    }
+    .header-banner-destacado .mobile-menu-box:checked~.horizontal-nav {
+        height: auto;
+    }
+    .header-banner-destacado .mobile-menu-box:checked~.mobile-menu-label:before {
+        content: 'Close';
+    }
+    .header-banner-destacado .horizontal-nav li {
+        display: block;
+    }
+    .header-banner-destacado .horizontal-nav .folder ul {
+        position: static;
+    }
+    .header-banner-destacado .horizontal-nav .folder-toggle-label a:before {
+        content: '+ ';
+    }
+    .header-banner-destacado .horizontal-nav .folder-toggle-box:checked~.folder-toggle-label a:before {
+        content: '- ';
+    }
+    .header-banner-destacado .horizontal-nav .folder:hover ul,
+    .header-banner-destacado .horizontal-nav .folder-toggle-box~ul {
+        display: none;
+    }
+    .header-banner-destacado.horizontal-nav .folder-toggle-box:checked~ul {
+        display: block;
+    }
+}
+
+.header-banner-destacado {
+    text-align: center;
+    z-index: 999;
+    position: relative;
+}
+
+.header-banner-destacado .main-navigation {
+    background: #222;
+}
+
+.header-banner-destacado .horizontal-nav a {
+    padding: 1.5em 1em;
+    color: #aaa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.header-banner-destacado .horizontal-nav a:hover,
+.header-banner-destacado .horizontal-nav .active-link a {
+    color: #fff;
+}
+
+.header-banner-destacado .horizontal-nav .folder ul {
+    background-color: #222;
+    transition: padding 0.14s ease-out;
+    text-align: left;
+}
+
+.header-banner-destacado .horizontal-nav .folder a {
+    padding: 0.5em 1em;
+    white-space: nowrap;
+}
+
+.header-banner-destacado .horizontal-nav .folder:hover ul {
+    padding: 0.5em 0;
+}
+
+.header-banner-destacado .banner {
+    background-color: #222;
+	height: 430px;
+}
+
+.header-banner-destacado .banner .banner-image {
+    background: url(../img/banner-destacado.png?v1);
+    background-size: cover;
+    opacity: 1;
+}
+
+.header-banner-destacado .banner .primary-wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.header-banner-destacado .banner .site-title {
+    letter-spacing: 2px;
+    font-size: 52px;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.header-banner-destacado .banner .site-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-banner-destacado .banner .site-tagline {
+    color: #aaa;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 2%;
+    text-align: right;
+}
+
+.header-banner-destacado .site-tagline img {
+    max-width: 430px;
+    width: 100%;
+}
+
+.header-banner-destacado .site-tagline h3 {
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+}
+
+.header-banner-destacado .site-tagline p {
+    font-size: 1.8em;
+    color: #222;
+}
+
+@media screen and (max-width: 700px) {
+    .header-banner-destacado .horizontal-nav a {
+        padding: 0.75em 1em;
+    }
+    .header-banner-destacado .horizontal-nav>ul>li:first-child a {
+        padding-top: 2em;
+    }
+    .header-banner-destacado .horizontal-nav>ul>li:last-child a {
+        padding-bottom: 2em;
+    }
+    .header-banner-destacado .horizontal-nav li {
+        display: block;
+    }
+    .header-banner-destacado .horizontal-nav .folder ul {
+        text-align: center;
+        padding: 0.5em 0;
+        margin: 0.5em 0;
+        transition: none;
+        background-color: #292929;
+    }
+    .header-banner-destacado .horizontal-nav .folder:hover ul {
+        padding: 0.5em 0;
+    }
+    .header-banner-destacado.horizontal-nav .folder-toggle-label a {
+        cursor: pointer;
+    }
+    .header-banner-destacado .mobile-menu-label {
+        color: #fff;
+        background-color: #292929;
+        padding: 1.5em 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .header-banner-destacado .mobile-menu-box:checked~.mobile-menu-label {
+        color: #aaa;
+    }
+    .header-banner-destacado .mobile-menu-box:checked~.horizontal-nav {
+        padding: 1em 0;
+    }
+    .header-banner-destacado .mobile-menu-box:checked~.mobile-menu-label:before {
+        content: 'Close';
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .header-banner-destacado .banner .banner-image {
+        background: url(../img/banner-destacado-mobile.png?v1) center center;
+        background-size: cover;
+        opacity: 1;
+    }
+
+    .header-banner-destacado .site-tagline strong {
+
+        display: block;
+    }
+
+
+    .header-banner-destacado .banner .primary-wrapper {
+        padding-top: 235px !important;
+        padding-bottom: 40px;
+    }
+    .header-banner-destacado .banner .primary-wrapper h4{
+       text-align:center;
+    }
+    .header-banner-destacado .site-tagline .btn-Landing {
+        margin-top: 10px;
+        padding:13px !important;
+        margin-bottom: 20px;
+    }														 
+}
+
+@media screen and (max-width: 850px) {
+
+    .header-banner-destacado .claro-destacado {
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .header-banner-destacado .banner .primary-wrapper {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .header-banner-destacado .site-tagline img {
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+        padding: 20px 2% 0 2%;
+    }
+
+    .header-banner-destacado .site-tagline h3 {
+
+        text-align: center;
+    }
+
+    .header-banner-destacado .site-tagline .btn-Landing {
+        display: block;
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    .big-plan {
+        right: 70px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .big-plan {
+        right: 140px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .big-plan {
+        right: 240px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .big-plan {
+        right: 340px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .big-plan {
+        right: 440px;
+    }
+}
+
+
+
+
+/*fin nueva seccion de banner-destacado*/
+
+
+/* DESTACADO promo en plan */
+
+.destacado-label-plan {
+    display: block;
+    width: 99%;
+    min-height: 49px;
+    position: absolute;
+    background-color: #F58220;
+    top: -45px;
+    z-index: -9;
+    left: 13px;
+    border-radius: 42px 42px 0px 0;
+    right: 0;
+    color: #fff;
+    padding: 16px 4%;
+    line-height: 1.1;
+}
+
+.destacado-label-plan span {
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 13px 4%;
+}
+
+
+
+/*FIN DESTACADO promo en plan */
+
+
+/*ver mas planes*/
+
+.ver-mas-planes {
+    max-width: 660px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+/*fin ver mas planes*/
+
+
+/*ESTILOS DEL MODAL*/
+
+.modal-content {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+[class*="close-"] {
+    border: 2px solid;
+    border-radius: 100%;
+    color: #B7202E;
+    cursor: pointer;
+    display: block;
+    font-size: 1.75em;
+    height: 40px;
+    line-height: 50px;
+    margin: 10px 1%;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    width: 40px;
+    float: right;
+}
+
+.fa-close {
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    font-size: 1em;
+}
+
+.modal-content h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 300;
+    font-size: 2.3em;
+}
+
+.modal-content {
+    max-width: 462px;
+    margin: auto;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.modal-content p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.7rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.modal-content .subtit {
+    margin-bottom: 20px;
+}
+
+.modal-content .selectSolicitar {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 462px;
+    margin: 0 auto 24px;
+    padding: 18px 40px 18px 27px;
+    width: 100%;
+    min-height: 122px;
+    border: 2px solid #a8a8a8;
+    position: relative;
+}
+
+.modal-content .card {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    padding: 40px 2% 0px;
+    position: relative;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    width: 100%;
+    min-height: 144px;
+    margin-bottom: 20px;
+}
+
+a .modal-content .selectSolicitar:after {
+    content: "";
+    font-family: "FontAwesome";
+    font-size: 26px;
+    font-size: 1.625rem;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    right: 20px;
+    color: #2997ad;
+}
+
+.modal-content .selectSolicitar a {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    webkit-display: -webkit-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    color: inherit;
+    text-decoration: none;
+}
+
+.modal-content .selectSolicitar .contImgSoli {
+    width: 70px;
+    min-width: 70px;
+    min-height: 82px;
+    position: relative;
+}
+
+.modal-content .selectSolicitar .contTextSoli h2 {
+    font-size: 15px;
+    font-size: 15px;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5;
+    color: #000;
+}
+
+
+.modal-content .selectSolicitar .contTextSoli p {
+    font-size: 15px;
+    font-size: 1em;
+    font-weight: 400;
+    color: #6d6d6d;
+}
+
+.modal-content .selectSolicitar:hover {
+    background: #fff;
+    border: 1px solid #2997ad;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content .contTextSoli {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+.modal-content .small-legal-modal {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+
+/*FIN ESTILOS DEL MODAL*/
+
+
+
+/*ESTILOS DE CARACTERISTICAS MINUTOS EN PLAN DESTACADO*/
+
+
+.line-plan-min img {
+    max-width: 40px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line-plan-min h2 {
+    color: #222;
+    font-size: 1.8rem;
+    display: block;
+
+}
+
+
+.line-plan-min strong {
+    color:#E20515;
+   
+}
+
+
+
+
+
+
+/*FIN ESTILOS DE CARACTERISTICAS MINUTOS EN PLAN DESTACADO*/
+
+/**/
+:after, :before {
+    display: inline-block;
+    font-family: FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translate(0, 0);
+    transform: translate(-1px, 1px);
+}
+
+.lista {
+    margin-left: 10px;
+    color: #666;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.lista:before {
+    color: rgb(218, 38, 44);
+    content: "●";
+    display: block;
+    font-size: 0.5em;
+    margin-bottom: -13px;
+    margin-left: -14px;
+    position: relative;
+    top: 6px;
+}

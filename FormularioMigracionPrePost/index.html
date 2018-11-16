@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="page1">
+        <section class="encabezado">
+            <div class="titulo-encabezado">
+                <h2> <img src="./assets/css/img/logo.png" class="logoClaro" alt="">Promociones</h2>
+                <h1>Cambiate de Prepago a Postpago</h1>
+            </div>
+        </section>
+        <section class="contenido">
+            <div class="contenedor-contenido">
+                <!-- Componente Plan -->
+                <div class="plan-contenedor">
+                    <div id="tab" class="tab">
+                        <button class="btnTab" id="defaultOpen" onclick="openTab(event, 'plan-s')">Plan</button>
+                        <button class="btnTab" onclick="openTab(event, 'caract-s')">Características</button>
+                    </div>
+                    <div id="plan-s" class="descriptions">
+                        <h2>Plan <strong>S</strong></h2>
+                        <div class="rectangulo-rojo">
+                            <h4>Internet</h4>
+                            <h1>10 GB</h1>
+                        </div>
+                        <p>Navegación Libre en Redes Sociales:</p>
+
+                        <ul class="redes-sociales">
+                            <li><img class="iconos" src="./assets/css/img/social-media-i.svg" alt="instagram"></li>
+                            <li><img class="iconos" src="./assets/css/img/social-media-f.svg" alt="facebook"></li>
+                            <li><img class="iconos" src="./assets/css/img/social-media-w.svg" alt="Whatsapp"></li>
+                            <li><img class="iconos" src="./assets/css/img/social-media-mu.svg" alt="Whatsapp"></li>
+                            <li><img class="iconos" src="./assets/css/img/social-media-m.svg" alt="messenger"></li>
+                        </ul>
+                        <div class="lista-oferta">
+                            <img class="iconos" src="./assets/css/img/incluye_llamadas_whatsapp.png" alt="Icono Whatsapp">
+                            <img class="iconos" src="./assets/css/img/icon-minutos.svg" alt="Icono Minutos">
+                        </div>
+                        <h3>Minutos <strong>libres</strong> a 100 números Valor mensual desde:</h3>
+                        <p><strong>$ 9.990</strong></p>
+                        <div class="btnContedor">
+                            <button class="btnVerde"> Lo quiero > </button>
+                        </div>
+                    </div>
+                    <!-- Caracteristica de Plan -->
+                    <div id="caract-s" class=" descriptions" style="display:none">
+                        <div class="caracteristicas">
+                            <div class="caracteristica-lista">
+                                <h1>Cargo fijo mensual</h1>
+                                <h2><strong>$ 9.990</strong></h2>
+                                <div class="caracteristica-Sublista">
+                                    <div class="lineaRoja"></div>
+                                    <p class="minutoLibres">Minutos libres a <strong>100</strong> números</p>
+                                    <div class="flexRow">
+                                        <img class="iconos" src="./assets/css/img/icon-sms.svg" alt="">
+                                        <p><strong>500 </strong>SMS</p>
+                                    </div>
+                                    <div class="flexColumn">
+                                        <img class="iconClaroMusica" src="./assets/css/img/icon-musica.svg" alt="">
+                                        <p>Sin consumir tus megas, sección escucha gratis</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="condiciones" href="">Ver condiciones del plan</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider para mobile -->
+                <div class="mobile-plan" style="display:none">
+                    <div class="slider">
+                        <div class="slide"><span>TEXT</span></div>
+                        <div class="slide"><span>TEXT</span></div>
+                    </div>
+                    <a class="arrow-left" href="javascript:void(0);"></a>
+                    <a class="arrow-right" href="javascript:void(0);"></a>
+                    <div class="dots-wrapper"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Js -->
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/planes.js"></script>
+</body>
+
+</html>
